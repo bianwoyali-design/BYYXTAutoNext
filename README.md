@@ -51,9 +51,15 @@ Run the command again every time you reopen or reload the BYYXT course player.
 1. Install [Tampermonkey](https://www.tampermonkey.net/).
 2. Open the Tampermonkey dashboard.
 3. Create a new script.
+
+![create a new script](https://raw.githubusercontent.com/bianwoyali-design/Img/main/Img/62da21ba20956c787d6690382fe7533a.png)
+
 4. Copy the contents of [`auto_next.user.js`](auto_next.user.js) into the editor.
-5. Save the script.
-6. Open your BYYXT course player page:
+
+![Add script](https://raw.githubusercontent.com/bianwoyali-design/Img/main/Img/a4345b884d89400b2204ae8e57c15bf1.jpg)
+
+4. Save the script.
+5. Open your BYYXT course player page:
 
 ```text
 https://byyxt.pupedu.cn/.../c/pc/viewer...
