@@ -72,6 +72,7 @@ https://byyxt.pupedu.cn/.../c/pc/viewer...
 ## 自定义播放倍速
 
 脚本启用后，页面右下角会显示“倍速”输入框。输入想要的播放倍速并按回车，或在输入框失焦后应用；脚本会保存该倍速，并在自动切换到下一节时继续使用。
+![](https://raw.githubusercontent.com/bianwoyali-design/Img/main/Img/20260513234640077.png)
 
 ## 常见问题
 

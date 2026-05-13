@@ -72,6 +72,7 @@ Tampermonkey will inject the script automatically whenever you open a matching B
 ## Custom Playback Speed
 
 After the script is enabled, a speed input appears in the bottom-right corner of the page. Enter the playback speed you want and press Enter, or leave the input to apply it. The script saves that speed and reapplies it after automatically switching to the next lesson.
+![](https://raw.githubusercontent.com/bianwoyali-design/Img/main/Img/20260513234640077.png)
 
 ## Troubleshooting
 
