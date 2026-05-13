@@ -9,6 +9,8 @@ BYYXTAutoNext is a small browser script that automatically opens the next BYYXT 
 - Listens for the current video to end.
 - Finds the active lesson in the course catalog.
 - Clicks the next lesson automatically.
+- Expands the next lecture when the current lecture is finished; if the next lecture has a PPT/courseware item, it opens it first, then switches to the first video.
+- Lets you set a custom video playback speed and keeps it when the next lesson opens.
 - Shows a small bottom-right toast when the script is enabled or switches lessons.
 
 ## Browser Support
@@ -67,8 +69,13 @@ https://byyxt.pupedu.cn/.../c/pc/viewer...
 
 Tampermonkey will inject the script automatically whenever you open a matching BYYXT course player page.
 
+## Custom Playback Speed
+
+After the script is enabled, a speed input appears in the bottom-right corner of the page. Enter the playback speed you want and press Enter, or leave the input to apply it. The script saves that speed and reapplies it after automatically switching to the next lesson.
+
 ## Troubleshooting
 
 - In Safari, make sure JavaScript from Apple Events is allowed if the AppleScript injection fails.
 - Keep the course catalog visible on the right side of the player so the script can find the next lesson.
+- If the next lecture is collapsed, the script expands it before looking for the PPT/courseware item and first video.
 - If the page was refreshed after injection in Safari, run the AppleScript command again.
